@@ -1,7 +1,61 @@
-ul, ul{
+/* Reset */
+ul, ol{
     list-style: none;
 }
 
 img{
     max-width: 100%;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: currentColor;
+    width: auto;
+  
+}
+
+
+/* Header */
+
+
+/* Sony */
+.ms_brand_nav{
+    background-color: black;
+}
+
+.ms_brand_nav a {
+    width: auto;
+    height: 100%;
+}
+
+.ms_brand_nav img{
+    height: 15px;
+    object-position: center;
+    object-fit: contain;
+}
+
+#main-header .ms_nav{
+    background-color: white;
+}
+
+#main-header .ms_nav .container-fluid{
+    padding: 0 0;
+}
+
+.lente{
+    margin: auto 0 auto 15px;
+}
+
+.lente img{
+    height: 25px;
+    object-position: 50% 50%;
+}
+
+.btn-pill{
+    border-radius: 999px;
+}
+
+.navbar-nav li{
+    padding: 0 5px;
 }
