@@ -194,6 +194,11 @@ header{
     background-color: #131313;
 }
 
+.ms_rounded{
+    border-radius: 15px;
+    overflow: hidden;
+}
+
 
 
 
