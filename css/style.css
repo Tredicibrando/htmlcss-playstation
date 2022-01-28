@@ -134,6 +134,10 @@ header{
     cursor: pointer;
 }
 
+#PS5 .row:last-child {
+
+}
+
 
 .selector::after{
     display: block;
@@ -160,7 +164,6 @@ header{
     opacity: 100%;
     margin: 0 5px;
     bottom: 0;
-    
 }
 
 .selector:hover::after{
