@@ -16,7 +16,7 @@ a{
 }
 
 
-/* Header */
+
 
 
 /* Sony */
@@ -43,8 +43,10 @@ a{
     padding: 0 0;
 }
 
+
+/* Header */
 .lente{
-    margin: auto 0 auto 15px;
+    margin: auto 0 auto 10px;
 }
 
 .lente img{
@@ -58,4 +60,34 @@ a{
 
 .navbar-nav li{
     padding: 0 5px;
+}
+
+.navbar{
+    padding: 0 5px;
+}
+
+/* jumbo */
+
+.game_banner{
+    
+    object-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.game_returnal{
+    background-image: url(../img/img/jumbo-bg.png);
+}
+
+.game_takes{
+    background-image: url(../img/img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+.game_banner .row{
+    min-height: 590px;
+    color: white;
+}
+
+.game_banner .row img {
+    max-width: 250px;
 }
