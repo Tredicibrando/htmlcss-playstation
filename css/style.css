@@ -68,7 +68,7 @@ header{
     padding: 0 5px;
     position: sticky;
     top: 0;
-
+    z-index: 888;
 }
 
 /* Game Banners */
@@ -124,12 +124,12 @@ header{
 /* PS5 */
 
 .row .thumb_wrapper{
-    max-width: 150px; 
-    max-height: 150px;
+    max-width: 130px; 
+    max-height: 130px;
     object-fit: contain;
     object-position: center;
     background-size: contain;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     width: 100%;
     cursor: pointer;
 }
@@ -144,6 +144,9 @@ header{
     left: 0;
     right: 0;
     opacity: 0%;
+    bottom: 0;
+    margin: 0 5px;
+    
 }
 
 .selector_active::after{
@@ -155,6 +158,9 @@ header{
     left: 0;
     right: 0;
     opacity: 100%;
+    margin: 0 5px;
+    bottom: 0;
+    
 }
 
 .selector:hover::after{
@@ -174,6 +180,18 @@ header{
         display: none;
     }
 }
+
+/* Nuove uscite */
+
+#new_release{
+    color: white;
+}
+
+.bg_dark{
+    background-color: #131313;
+}
+
+
 
 
 
