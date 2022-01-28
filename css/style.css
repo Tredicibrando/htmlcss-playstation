@@ -12,7 +12,11 @@ a{
     text-decoration: none;
     color: currentColor;
     width: auto;
-  
+
+}
+
+header{
+    display: contents;
 }
 
 
@@ -24,19 +28,17 @@ a{
     background-color: black;
 }
 
-.ms_brand_nav a {
-    width: auto;
-    height: 100%;
-}
-
 .ms_brand_nav img{
     height: 15px;
     object-position: center;
     object-fit: contain;
+    display: block;
 }
 
 #main-header .ms_nav{
     background-color: white;
+    position: sticky;
+    top: 0;
 }
 
 #main-header .ms_nav .container-fluid{
@@ -64,6 +66,9 @@ a{
 
 .navbar{
     padding: 0 5px;
+    position: sticky;
+    top: 0;
+
 }
 
 /* jumbo */
