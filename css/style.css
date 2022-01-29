@@ -176,6 +176,8 @@ header{
     #PS5 .row:last-child p{
         display: none;
     }
+
+    .pplusbanner{display: none;}
 }
 
 /* Nuove uscite */
@@ -192,6 +194,39 @@ header{
     border-radius: 15px;
     overflow: hidden;
 }
+
+/* PS Plus */
+
+#PSPLUS{
+    background-color: #BEBCBB;
+}
+
+.psplus_wrapper{
+    width: 70%;
+}
+
+.ms_btn_plus{
+    background-color: #D9DADC;
+    color: #3E70E5;
+}
+
+.psplus_logo{
+    max-width: 70%;
+    display: block;
+}
+
+.ps_plus_banner{
+    max-width: 100%;
+    display: block;
+}
+
+@media screen and (max-width: 992px) {
+    .pplusbanner{
+        display: none;
+    }
+}
+
+
 
 
 
