@@ -133,11 +133,6 @@ header{
     cursor: pointer;
 }
 
-#PS5 .row:last-child {
-
-}
-
-
 .selector::after{
     display: block;
     content: '';
