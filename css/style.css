@@ -248,6 +248,16 @@ header{
     display: inline;
 }
 
+#footer .sie_logo{
+    max-width: 90px;
+}
+
+#footer .footer_logo {
+
+    color: white;
+    max-width: 80px;
+}
+
 
 
 
