@@ -215,19 +215,38 @@ header{
     display: block;
 }
 
+.pplusbanner{
+    height: 100%;
+}
+
 .ps_plus_banner{
     width: 100%;
     display: block;
 }
 
-@media screen and (max-width: 1199px) {
-    .pplusbanner{
-        display: none;
-    }
+/* PS store */
+
+.pstore_cta img{
+    object-fit: contain;
+    object-position: center;
+
 }
 
+/* PSnow */
 
+#psnow{
+    background-color: #161C3B;
+}
 
+/* footer */
+
+#footer {
+    background-color: #00439C;
+}
+
+#footer ul{
+    display: inline;
+}
 
 
 
